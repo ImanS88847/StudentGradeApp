@@ -9,14 +9,16 @@ package studentgradeapp;
  * @author user
  */
 public class StudentGradeApp {
-
     public static void main(String[] args) {
-        
         String student = "Ali";
         int mark = 75;
-        
         System.out.println("Student: " + student);
         System.out.println("Mark: " + mark);
+        if (mark >= 50) {
+            System.out.println("Result: PASS");
+        } else {
+            System.out.println("Result: FAIL");
+            }
+        }
     }
-    
-}
+
