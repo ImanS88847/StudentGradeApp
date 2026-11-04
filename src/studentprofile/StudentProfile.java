@@ -15,6 +15,10 @@ public class StudentProfile {
         System.out.println("Student ID: S88847");
         System.out.println("Programme: Sarjana Muda Sains Komputer (Keselamatan"
                 + " Komputeran Awan) Dengan Kepujian");
+        
+        System.out.println("Semester: Semester 1");
+        System.out.println("Favourite Language: Java");
+
     }
     
 }
